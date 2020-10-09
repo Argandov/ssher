@@ -6,10 +6,11 @@
 #
 
 while true; do
-ping -c 1 $1
+ping -c 1 -s 1 $1
 if [ $? = 0 ]; then
         ssh $1
         break; else
+        sleep 5
         continue
 fi
 done

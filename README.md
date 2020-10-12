@@ -1,11 +1,11 @@
 # ssher
-A very simple bash script to automate an ssh connection.
+A very basic and simple bash script to automate an ssh connection.
 
 ## What it does: 
 
 It pings a remote machine, and keeps pinging in very small, individual ICMP packets, and when it gets a response, then establishes a connection.
 
-Useful for when starting or rebooting a server, and I don't have to wait until it is up. This script just does it for me. 
+Very useful for when starting or rebooting a server, virtual machine, remote router, etc. and I don't have to wait to see if it is up to establish a connection.
 
-## Usage: 
->> ssher 10.0.0.1
+## Usage example: 
+ssher 10.0.0.1

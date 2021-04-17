@@ -1,5 +1,5 @@
 # ssher
-A very basic and simple bash script to automate an ssh connection.
+A very basic and simple bash script to automate an ssh connection. (I kept the ssh command without anything special because I always end up changing it for different uses)
 
 ## What it does: 
 

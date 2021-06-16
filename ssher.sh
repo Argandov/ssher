@@ -2,7 +2,7 @@
 
 # Usage: ssh 10.0.0.1
 
-# It will ping it, and when it responds back, it will try to establish an ssh connection
+# It will ping the given IP, and ONLY WHEN it replies back, it will initiate an ssh connection
 #
 
 while true; do
